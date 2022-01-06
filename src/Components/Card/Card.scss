@@ -1,0 +1,30 @@
+.card {
+  width: 220px;
+  height: 200px;
+  background: rgba(46, 34, 34, 0.5);
+  border: 1px solid #ffde98;
+  border-radius: 10px;
+  text-align: center;
+  img {
+    width: 55px;
+    height: 100%;
+    padding: 0 10px;
+  }
+}
+.wrapper {
+  display: flex;
+}
+.title {
+  margin: 10px;
+  color: #ffde98;
+}
+.info {
+  text-align: left;
+  color: #fef4e0;
+}
+.info-item {
+  line-height: 1.3rem;
+}
+.selected {
+  border: 1px solid rgb(191, 0, 0);
+}

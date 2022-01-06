@@ -1,0 +1,10 @@
+.modal {
+  position: absolute;
+  width: 600px;
+  height: 150px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  margin-top: calc(100vh - 300px);
+  margin-left: calc(100vw - 75px);
+}

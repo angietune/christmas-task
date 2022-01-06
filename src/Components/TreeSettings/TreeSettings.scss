@@ -1,0 +1,124 @@
+.settings-wrapper,
+.tree-field,
+.result-wrapper {
+  width: 25%;
+  height: 100%;
+}
+.tree-field {
+  width: 40%;
+  height: auto;
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+.tree-on-bg {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.background-list,
+.tree-list,
+.selected-toys-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 7px;
+  width: 100%;
+}
+.selected-toys-list {
+  height: 325px;
+}
+.tree-tree,
+.tree-background,
+.tree-lights {
+  max-height: 30%;
+}
+.tree-title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  margin: 20px 0;
+}
+.bg-item,
+.tree-item,
+.toys-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 7px;
+  img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+.tree-item {
+  width: 30%;
+}
+.bg-item {
+  width: 16%;
+}
+.toys-item {
+  width: 20%;
+}
+.lights-options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.lights-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.multi {
+  background: linear-gradient(124deg, #fc0000, #fec301, #fbff00, #05fe2f, #05d9ff, #1250ed, #3f01bb);
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+.yellow {
+  background: yellow;
+}
+.green {
+  background: rgb(0, 187, 0);
+}
+.count-toy {
+  color: rgb(108, 32, 0);
+  position: absolute;
+  background-color: rgb(255, 211, 134);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.test {
+  width: 200px;
+  height: 200px;
+  img {
+    width: 50px;
+  }
+}
+#toyfield,
+#tree {
+  width: 100px;
+  height: 100px;
+  background-color: lightcyan;
+  margin: 10px;
+  position: relative;
+}
+.toys-item {
+  position: relative;
+}
+.toys-item img {
+  position: absolute;
+  width: 100%;
+}

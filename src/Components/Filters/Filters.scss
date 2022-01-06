@@ -1,0 +1,102 @@
+@import './nouislider.scss';
+
+.filters {
+  width: 90vw;
+  margin: 40px auto;
+  color: #ffde98;
+  font-weight: 300;
+  margin-bottom: 40px;
+  flex: 0 1 auto;
+}
+.bycolor,
+.byform,
+.bysize,
+.favorite {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+
+  button {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 7px;
+  }
+}
+
+.button-blue {
+  background: rgb(0, 166, 255);
+}
+.button-yellow {
+  background: rgb(234, 255, 0);
+}
+.button-red {
+  background: rgb(255, 47, 0);
+}
+.button-green {
+  background: rgb(0, 255, 115);
+}
+.button-white {
+  background: rgb(255, 255, 255);
+}
+.big {
+  width: 40px;
+}
+.medium {
+  width: 30px;
+}
+.small {
+  width: 25px;
+}
+.byform img {
+  width: 30px;
+  padding: 6px;
+  cursor: pointer;
+}
+.filters img:hover {
+  filter: invert(15%) sepia(70%) saturate(3969%) hue-rotate(5deg) brightness(100%) contrast(103%);
+}
+
+.filter-title {
+  font-size: 1rem;
+  margin: 10px 10px 10px 0;
+}
+.range-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    padding: 0 15px;
+  }
+}
+.filters-reset {
+  width: 100px;
+  height: 30px;
+  background: rgb(126, 53, 0);
+  border-radius: 25px;
+  border: 1px solid #ffde98;
+  color: #ffde98;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.filters-reset:hover {
+  background: #ffde98;
+  color: rgb(126, 53, 0);
+}
+.filters-reset:active {
+  transform: scale(0.9);
+}
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  background: #ffde98;
+  border: 1px solid #7e3500;
+  border-radius: 3px;
+}
+.active {
+  filter: invert(15%) sepia(70%) saturate(3969%) hue-rotate(10deg) brightness(100%) contrast(103%);
+}
+.active-color {
+  border: 2px solid #ffde98;
+}

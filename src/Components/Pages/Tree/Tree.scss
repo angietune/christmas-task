@@ -1,0 +1,19 @@
+@import '../../TreeSettings/TreeSettings';
+
+.tree-bg {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../../assets/bg-wood.jpg');
+  background-repeat: repeat-y;
+  font-family: 'Barlow', sans-serif;
+  position: relative;
+}
+.tree {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 4px auto;
+}
